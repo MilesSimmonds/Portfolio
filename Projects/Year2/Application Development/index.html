@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple jQuery Web Service Client</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/webservicedemo.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Insurance Database</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/">Database</a></li>
+                <li><a href="visualisation.html">Visualizations</a></li>
+            </ul>
+        </div>
+    </div>
+    <h1>Insurance Database</h1>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Drivers buttons-->
+                <input type="text" id="searchBydriverIdInput" placeholder="Enter Driver ID" required>
+                <input type="button" value="Get Driver Details" class="btn btn-sm btn-primary" onclick="getDriver();" />
+                &nbsp;
+                <input type="button" value="Get All Drivers" class="btn btn-sm btn-primary" onclick="getAllDrivers();" />
+                &nbsp;
+                <input type="button" value="Add New Driver" class="btn btn-sm btn-primary" onclick="createNewDriverForm();" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp; 
+            </div>
+        </div>
+        <div id="alldrivers" class="row">
+        </div>
+        <div id="newdriverform" class="row">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Car details buttons-->
+                <input type="text" id="searchBycarIdInput" placeholder="Enter Car ID">
+                <input type="button" value="Get Car Details" class="btn btn-sm btn-primary" onclick="getCar();" />
+                &nbsp;
+                <input type="button" value="Get All Cars" class="btn btn-sm btn-primary" onclick="getAllCarDetails();" />
+                &nbsp;
+                <input type="button" value="Add Car Details" class="btn btn-sm btn-primary" onclick="createNewCarDetailsForm();" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp;
+            </div>
+        </div>
+        <div id="allcars" class="row">
+        </div>
+        <div id="newcarform" class="row">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Claim details buttons-->
+                <input type="text" id="searchByclaimIdInput" placeholder="Enter Claim ID">
+                <input type="button" value="Get Claim Details" class="btn btn-sm btn-primary" onclick="getClaim();" />
+                &nbsp;
+                <input type="button" value="Get All Claims" class="btn btn-sm btn-primary" onclick="getAllClaimDetails();" />
+                &nbsp;
+                <input type="button" value="Add Claim Details" class="btn btn-sm btn-primary" onclick="createNewClaimDetailsForm();" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                &nbsp;
+            </div>
+        </div>
+        <div id="allclaims" class="row">
+        </div>
+        <div id="newclaimform" class="row">
+        </div>
+        <!--<div> <iframe src="claimsbycartype.php" width="600" height="400" frameborder="0"></iframe></div>
+        <div> <iframe src="bubblechart.php" width="900" height="900" frameborder="0"></iframe></div>-->
+        <footer>
+            <p>&copy; 2024 - University of Derby</p>
+        </footer>
+    </div>
+</body>
+</html>

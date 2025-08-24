@@ -1,0 +1,49 @@
+[Basic integer math]
+15 :=: 10 + 5
+-5 :=: 5 - 10
+20 :=: 4 * 5
+2.0 :=: 10 / 5
+
+[Boolean logic]
+True :=: True
+False :=: False
+True :=: 5 < 10
+False :=: 5 > 10
+True :=: True & True
+False :=: False | False
+True :=: ! False
+
+[String concatenation]
+~helloworld~ :=: ~hello~ + ~world~
+True :=: ~hello~ + ~ ~ + ~world~ == ~hello world~
+
+[Variable assignment and math]
+12 :=: quickMaths = 10 + 2
+12 :=: quickMaths
+
+[Mixed strings and numbers]
+~Age: 25~ :=: ageInfo = ~Age: ~ + 25
+~Age: 25~ :=: ageInfo
+
+[Integer plus String ]
+~5text~ :=: 5 + ~text~
+[IF statement testing]
+
+[If True branch]
+5 :=: x = 5
+~yes~ :=: ? (x == 5) ./ ~yes~ /. : ./ ~no~ /.
+
+[If False branch]
+3 :=: y = 3
+~no~ :=: ? (y == 5) ./ ~yes~ /. : ./ ~no~ /.
+
+[If with boolean result]
+True :=: ? (1 < 2) ./ True /. : ./ False /.
+False :=: ? (2 < 1) ./ True /. : ./ False /.
+
+[If else logic with variable check]
+42 :=: score = 42
+~pass~ :=: ? (score >= 40) ./ ~pass~ /. : ./ ~fail~ /.
+
+35 :=: score = 35
+~fail~ :=: ? (score >= 40) ./ ~pass~ /. : ./ ~fail~ /.

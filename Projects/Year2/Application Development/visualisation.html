@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Visualisations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/Site.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Insurance Database</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/">Database</a></li>
+                <li><a href="visualisation.html">Visualizations</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Data Visualizations</h1>
+    
+
+        <!-- Claims by Car Type Chart -->
+        <div class="visualization-container">
+            <h3>Claims by Car Type</h3>
+            <iframe src="claimsbycartype.php" width="510" height="400" frameborder="0"></iframe>
+            <p>
+                <strong>The above chart displays the amount of claims each car type has produced.</strong> From this, we can dictate the trends in claim frequency across different car types, enabling us to identify potential areas for risk mitigation or further investigation. Additionally,
+                it helps in identifying any patterns or correlations between car types and claim frequencies, which can inform insurance pricing strategies and policy adjustments to better manage risk and optimize profitability.
+            </p>
+        </div>
+
+        <!-- Bubble Chart -->
+        <div class="visualization-container">
+            <h3>Average Cost by Car Type</h3>
+            <iframe src="bubblechart.php" width="850" height="450" frameborder="0"></iframe>
+             <p>
+                <strong>The above chart displays the average cost and claims each car type has produced.</strong> By examining which car types have higher claim frequencies and average costs, employees can identify vehicles that pose higher risks to the insurance company. This information can guide decisions on premium pricing and risk assessment.
+            </p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="" async defer></script>
+</body>
+</html>

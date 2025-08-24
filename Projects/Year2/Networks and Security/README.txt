@@ -1,0 +1,1 @@
+Navigate to the server.py and client.py file locations in python console to run the applicaiton - once open follow the instructions on screen. 
