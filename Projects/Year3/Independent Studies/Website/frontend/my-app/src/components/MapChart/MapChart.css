@@ -1,0 +1,30 @@
+div {
+    margin: 0; /* Remove auto margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent sizing */
+    width: 100%;
+  }
+  
+.sunburst-chart {
+    position: relative; 
+    right: 0; 
+    margin-inline: auto; 
+    width: 100%; 
+    height: auto; 
+    
+  }
+  
+  svg {
+    width: 100% !important; 
+    height: auto !important; 
+  }
+
+.hover-data {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}

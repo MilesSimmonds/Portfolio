@@ -1,0 +1,16 @@
+/* Style for the container holding the bar chart */
+div.chart-container {
+    width: 98%; /* Makes the chart take the full width of its parent */
+    position: relative;
+    margin: 0 auto; /* Centers the chart horizontally */
+    padding: 20px; /* Adds some spacing around the chart */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
+  }
+  
+  /* Optional: Style for the SVG element (if needed) */
+  .chart-container svg {
+    display: block; /* Prevents the SVG from having extra space at the bottom */
+    max-width: 115%; /* Ensures the SVG scales with the container */
+    height: auto; /* Maintains aspect ratio */
+  }
+  

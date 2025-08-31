@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+*{
+  animation: fade-in 0.89s;
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 800%;
+    position:relative;
+    text-align:center;
+    text-shadow: 1rem 1rem #575554;
+    ;
+
+  }
+  
+.p {
+    font-family:'Poppins', sans-serif;
+    font-size: 200%;
+  }
+
+.h2 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 400%;
+  position:relative;
+  text-align:left;
+  ;
+}
+
+.home_content {
+  display: flex;
+  /*  flex-direction: row; */
+  flex-basis: 33%;
+  flex-grow: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  position:relative;
+  text-align:left;
+  margin-right: 1rem;
+  ;
+}
+
+.chartitem1 {
+  flex-grow: 2;
+  flex-basis: 300%;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+    animation: spin 2.2s forwards;
+  
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}

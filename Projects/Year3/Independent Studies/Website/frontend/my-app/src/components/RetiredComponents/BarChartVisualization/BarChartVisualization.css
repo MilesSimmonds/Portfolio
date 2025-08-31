@@ -1,0 +1,23 @@
+/* Apply global styles */
+div {
+  margin: 0; /* Remove auto margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Ensure consistent sizing */
+  width: 100%;
+}
+
+
+/* Position and size the chart container */
+.chart {
+  position: relative; /* Position the chart relative to the screen */
+  left: 0; /* Align to the left edge */
+  top: 0; /* Align to the top edge */
+  width: 48%; /* Set initial width as 30% of the screen */
+  height: auto; /* Automatically adjust height */
+}
+
+/* Ensure the chart resizes dynamically */
+canvas {
+  width: 100% !important; /* Make the canvas responsive */
+  height: auto !important; /* Maintain aspect ratio */
+}
