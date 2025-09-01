@@ -1,2 +1,2 @@
 # Portfolio
-A Repo of some example projects I have made
+Welcome! Here are of some of the projects I have developed over my computer science journey - feel free to have a browse. 
