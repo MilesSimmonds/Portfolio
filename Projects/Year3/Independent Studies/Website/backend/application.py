@@ -16,8 +16,8 @@ CA_PATH = os.path.join(os.path.dirname(__file__), "ca.pem")
 db_config = {
     "host": "maternitydb-dissertation.d.aivencloud.com",
     "port": 23067,
-    "user": "avnadmin",
-    "password": "AVNS_N-ZOcceFR1pRHJS7w3A",
+    "user": #REDACTED FOR SECURITY,
+    "password": #REDACTED FOR SECURITY,
     "database": "maternity"  # or "defaultdb" if that's where you imported the dump
 }
 
